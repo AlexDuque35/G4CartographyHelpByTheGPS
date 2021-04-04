@@ -1,2 +1,8 @@
 /JavaApplication32/nbproject/private/
 /G4Cartography/nbproject/private/
+
+# Log file
+*.log
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
