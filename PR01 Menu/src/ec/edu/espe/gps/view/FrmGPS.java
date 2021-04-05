@@ -1102,6 +1102,27 @@ public class FrmGPS extends javax.swing.JFrame {
 
     private void btnSaveCoordinatesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveCoordinatesActionPerformed
 
+    GPS gps;
+        double latDegrees;
+        double latMinutes;
+        double latSeconds;
+        double lenDegrees;
+        double lenMinutes;
+        double lenSeconds;
+        String save;
+
+        latDegrees = Double.parseDouble(txtLatDegrees1.getText());
+        latMinutes = Double.parseDouble(txtLatMinutes1.getText());
+        latSeconds = Double.parseDouble(txtLatSeconds1.getText());
+        lenDegrees = Double.parseDouble(txtLenDegrees1.getText());
+        lenMinutes = Double.parseDouble(txtLenMinutes1.getText());
+        lenSeconds = Double.parseDouble(txtLenSeconds1.getText());
+        save = "Save Coordinates";
+
+        gps = new GPS(latDegrees, latMinutes, latSeconds, lenDegrees, lenMinutes,
+            lenSeconds);
+        GPSController.save(gps);
+        JOptionPane.showMessageDialog(rootPane, save);
        
     }//GEN-LAST:event_btnSaveCoordinatesActionPerformed
 
@@ -1125,19 +1146,87 @@ public class FrmGPS extends javax.swing.JFrame {
     }//GEN-LAST:event_btnConvertCoordinateActionPerformed
 
     private void btnCalPer3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalPer3ActionPerformed
+	
+	String message;
+        double per3Lat1;
+        double per3Len1;
+        double per3Lat2;
+        double per3Len2;
+        double per3Lat3;
+        double per3Len3;
+        double per;
+        per3Lat1 = Double.parseDouble(txtPer3Lat1.getText());
+        per3Len1 = Double.parseDouble(txtPer3Len1.getText());
+        per3Lat2 = Double.parseDouble(txtPer3Lat2.getText());
+        per3Len2 = Double.parseDouble(txtPer3Len2.getText());
+        per3Lat3 = Double.parseDouble(txtPer3Lat3.getText());
+        per3Len3 = Double.parseDouble(txtPer3Len3.getText());
+        per = GPSController.computePerimeter3Points(per3Lat1, per3Lat2, per3Lat3,
+                per3Len1, per3Len2, per3Len3);
+        
+        message = "The Perimeter is: "+"\n"+per; 
+        JOptionPane.showMessageDialog(rootPane, message);
 
         
     }//GEN-LAST:event_btnCalPer3ActionPerformed
 
     private void btnCalPer4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalPer4ActionPerformed
 
-       
+       String message;
+        double per4Lat1;
+        double per4Len1;
+        double per4Lat2;
+        double per4Len2;
+        double per4Lat3;
+        double per4Len3;
+        double per4Lat4;
+        double per4Len4;
+        double per;
+        per4Lat1 = Double.parseDouble(txtPer4Lat1.getText());
+        per4Len1 = Double.parseDouble(txtPer4Len1.getText());
+        per4Lat2 = Double.parseDouble(txtPer4Lat2.getText());
+        per4Len2 = Double.parseDouble(txtPer4Len2.getText());
+        per4Lat3 = Double.parseDouble(txtPer4Lat3.getText());
+        per4Len3 = Double.parseDouble(txtPer4Len3.getText());
+        per4Lat4 = Double.parseDouble(txtPer4Lat4.getText());
+        per4Len4 = Double.parseDouble(txtPer4Len4.getText());
+        per = GPSController.computePerimeter4Points(per4Lat1, per4Lat2, per4Lat3,
+                per4Lat4, per4Len1, per4Len2, per4Len3, per4Len4);
+        
+        message = "The Perimeter is: "+"\n"+per; 
+        JOptionPane.showMessageDialog(rootPane, message);
 
     }//GEN-LAST:event_btnCalPer4ActionPerformed
 
     private void btnCalPer5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalPer5ActionPerformed
 
-     
+     String message;
+        double per5Lat1;
+        double per5Len1;
+        double per5Lat2;
+        double per5Len2;
+        double per5Lat3;
+        double per5Len3;
+        double per5Lat4;
+        double per5Len4;
+        double per5Lat5;
+        double per5Len5;
+        double per;
+        per5Lat1 = Double.parseDouble(txtPer5Lat1.getText());
+        per5Len1 = Double.parseDouble(txtPer5Len1.getText());
+        per5Lat2 = Double.parseDouble(txtPer5Lat2.getText());
+        per5Len2 = Double.parseDouble(txtPer5Len2.getText());
+        per5Lat3 = Double.parseDouble(txtPer5Lat3.getText());
+        per5Len3 = Double.parseDouble(txtPer5Len3.getText());
+        per5Lat4 = Double.parseDouble(txtPer5Lat4.getText());
+        per5Len4 = Double.parseDouble(txtPer5Len4.getText());
+        per5Lat5 = Double.parseDouble(txtPer5Lat5.getText());
+        per5Len5 = Double.parseDouble(txtPer5Len5.getText());
+        per = GPSController.computePerimeter5Points(per5Lat1, per5Lat2, per5Lat3,
+                per5Lat4, per5Lat5, per5Len1, per5Len2, per5Len3, per5Len4, per5Len5);
+        
+        message = "The Perimeter is: "+"\n"+per; 
+        JOptionPane.showMessageDialog(rootPane, message);
 
     }//GEN-LAST:event_btnCalPer5ActionPerformed
 
