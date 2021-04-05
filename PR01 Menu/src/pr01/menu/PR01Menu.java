@@ -1,9 +1,9 @@
+package pr01.menu;
 
-package g4cartography;
 import java.util.Scanner;
-public class G4Cartography {
 
-   
+public class PR01Menu {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         boolean mainLoop = true;
@@ -28,7 +28,7 @@ public class G4Cartography {
         double py5;
         double per;
         double area;
-        
+
         do {
             printBanner();
             option = input.nextInt();
