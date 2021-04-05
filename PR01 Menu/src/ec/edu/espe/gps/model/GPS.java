@@ -5,6 +5,8 @@ public class GPS {
         double minutos;
         double latitud;
         double area;
+        double longitud;
+        double add;
         
         
     
