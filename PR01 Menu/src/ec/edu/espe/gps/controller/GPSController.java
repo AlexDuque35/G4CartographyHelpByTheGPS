@@ -10,7 +10,7 @@ import utils.FileManager;
 public class GPSController {
 
     public static void save(GPS gps) {
-        String data = GPS.
+        String data = GPS.getLat1 + "," + GPS.getLat2 + "," + GPS.getLon1 + "," + GPS.getLong2
                 fileManager.save(data, "GPS");
     }
 
