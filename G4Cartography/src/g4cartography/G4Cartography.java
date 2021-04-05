@@ -28,7 +28,7 @@ public class G4Cartography {
         double py5;
         double per;
         double area;
-
+        
         do {
             printBanner();
             option = input.nextInt();
