@@ -7,13 +7,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import utils.FileManager;
 
-public class GPSController {
-<<<<<<< HEAD
-    public static void save(GPS gps){
-        
-=======
-
-<<<<<<< HEAD
+public class GPSController {       
    public static void save(GPS gps){
         String data = gps.getLatDegrees()+"; "+gps.getLatMinutes()+"; "+gps.getLatSeconds()
                 +"; "+gps.getLenDegrees()+"; "+gps.getLenMinutes()+"; "+gps.getLenSeconds()+".";
@@ -119,8 +113,4 @@ public class GPSController {
         return area;
 
     }
-    
-    
-    
 }
-
