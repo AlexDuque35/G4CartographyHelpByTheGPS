@@ -1136,7 +1136,7 @@ public class FrmGPS extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCalPer4ActionPerformed
 
     private void btnCalPer5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalPer5ActionPerformed
-    sum = perimeterone + perimeter two; 
+    sum = perimeterone + perimetertwo; 
     
      
 

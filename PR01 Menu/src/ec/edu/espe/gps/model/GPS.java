@@ -1,6 +1,7 @@
 package ec.edu.espe.gps.model;
 
 public class GPS {
+<<<<<<< HEAD
    /**
      * @return the per3Lat1
      */
@@ -195,6 +196,5 @@ public class GPS {
     /**
      * @return the Save
      */
-    
-    
+
 }

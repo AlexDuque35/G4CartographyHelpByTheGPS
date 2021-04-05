@@ -14,7 +14,8 @@ public class FileManager {
     
     }
     
-    public static boolean save(String data, String fileName){
+    public static boolean save(String data, String fileName()){
+int name;
 
     }
     
