@@ -8,15 +8,14 @@ import javax.swing.table.DefaultTableModel;
 import utils.FileManager;
 
 public class GPSController {
-
-    public static void save(GPS gps) {
-        String data = GPS.
-                fileManager.save(data, "GPS");
+    public static void save(GPS gps){
+        
     }
-
-    public static String readCsv(String direction) {
-        String data;
-        data = fileManager.read("GPS");
-        return data;
+    
+    public static String readCsv(String direction){
+        
     }
+    
+    
+    
 }

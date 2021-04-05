@@ -1,8 +1,8 @@
 package ec.edu.espe.gps.model;
 
 public class GPS {
-<<<<<<< HEAD
-   /**
+
+    /**
      * @return the per3Lat1
      */
     public double getPer3Lat1() {
@@ -147,54 +147,5 @@ public class GPS {
     /**
      * @param latSeconds the latSeconds to set
      */
-    public void setLatSeconds(double latSeconds) {
-        this.latSeconds = latSeconds;
-    }
-
-    /**
-     * @return the lenDegrees
-     */
-    public double getLenDegrees() {
-        return lenDegrees;
-    }
-
-    /**
-     * @param lenDegrees the lenDegrees to set
-     */
-    public void setLenDegrees(double lenDegrees) {
-        this.lenDegrees = lenDegrees;
-    }
-
-    /**
-     * @return the lenMinutes
-     */
-    public double getLenMinutes() {
-        return lenMinutes;
-    }
-
-    /**
-     * @param lenMinutes the lenMinutes to set
-     */
-    public void setLenMinutes(double lenMinutes) {
-        this.lenMinutes = lenMinutes;
-    }
-
-    /**
-     * @return the lenSeconds
-     */
-    public double getLenSeconds() {
-        return lenSeconds;
-    }
-
-    /**
-     * @param lenSeconds the lenSeconds to set
-     */
-    public void setLenSeconds(double lenSeconds) {
-        this.lenSeconds = lenSeconds;
-    }
-
-    /**
-     * @return the Save
-     */
-
+    
 }
