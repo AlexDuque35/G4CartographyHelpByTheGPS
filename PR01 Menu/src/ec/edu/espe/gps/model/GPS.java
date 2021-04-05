@@ -85,7 +85,7 @@ public class GPS {
     public void setPer3Len4(double per3Len4) {
         this.per3Len4 = per3Len4;
     }
-    
+
     private double latDegrees;
     private double latMinutes;
     private double latSeconds;
@@ -98,7 +98,7 @@ public class GPS {
     private double per3Len2;
     private double per3Lat3;
     private double per3Len4;
-    
+
     public GPS(double latDegrees, double latMinutes, double latSeconds, double lenDegrees, double lenMinutes, double lenSeconds) {
         this.latDegrees = latDegrees;
         this.latMinutes = latMinutes;
@@ -106,7 +106,7 @@ public class GPS {
         this.lenDegrees = lenDegrees;
         this.lenMinutes = lenMinutes;
         this.lenSeconds = lenSeconds;
-        
+
     }
 
     /**
@@ -147,5 +147,46 @@ public class GPS {
     /**
      * @param latSeconds the latSeconds to set
      */
-    
+    public double getLenDegrees() {
+        return lenDegrees;
+    }
+
+    /**
+     * @param lenDegrees the lenDegrees to set
+     */
+    public void setLenDegrees(double lenDegrees) {
+        this.lenDegrees = lenDegrees;
+    }
+
+    /**
+     * @return the lenMinutes
+     */
+    public double getLenMinutes() {
+        return lenMinutes;
+    }
+
+    /**
+     * @param lenMinutes the lenMinutes to set
+     */
+    public void setLenMinutes(double lenMinutes) {
+        this.lenMinutes = lenMinutes;
+    }
+
+    /**
+     * @return the lenSeconds
+     */
+    public double getLenSeconds() {
+        return lenSeconds;
+    }
+
+    /**
+     * @param lenSeconds the lenSeconds to set
+     */
+    public void setLenSeconds(double lenSeconds) {
+        this.lenSeconds = lenSeconds;
+    }
+
+    /**
+     * @return the Save
+     */
 }
