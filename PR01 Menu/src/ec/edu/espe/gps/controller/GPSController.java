@@ -117,16 +117,7 @@ public class GPSController {
                 + (Math.sqrt((px4 - px3) * (px4 - px3) + (py4 - py3) * (py4 - py3))
                 * Math.sqrt((px5 - px4) * (px5 - px4) + (py5 - py4) * (py5 - py4))) / 2;
         return area;
-=======
-    public static void save(GPS gps) {
-        String data = GPS.getLat1 + "," + GPS.getLat2 + "," + GPS.getLon1 + "," + GPS.getLong2
-                fileManager.save(data, "GPS");
->>>>>>> 4b093c7ca3d43a4ff4320af2ba9d87ef681a2061
-    }
-    
-    public static String readCsv(String direction){
-        
->>>>>>> 98234c64f47254edcbfbd525d4b113ecba033fcb
+
     }
     
     
