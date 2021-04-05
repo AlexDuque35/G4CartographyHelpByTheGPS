@@ -590,7 +590,7 @@ public class FrmGPS extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(txtSur3Len3, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addComponent(btnCalSur3))
-                .addContainerGap(136, Short.MAX_VALUE))
+                .addContainerGap(135, Short.MAX_VALUE))
             .addGroup(panPer4Points3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panPer4Points3Layout.createSequentialGroup()
                     .addGap(1, 1, 1)
@@ -716,7 +716,7 @@ public class FrmGPS extends javax.swing.JFrame {
                         .addComponent(txtSur4Lat4, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(txtSur4Len4, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(136, Short.MAX_VALUE))
+                .addContainerGap(135, Short.MAX_VALUE))
             .addGroup(panPer4Points2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panPer4Points2Layout.createSequentialGroup()
                     .addGap(1, 1, 1)
@@ -856,7 +856,7 @@ public class FrmGPS extends javax.swing.JFrame {
                         .addComponent(txtSur5Lat5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(txtSur5Len5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(136, Short.MAX_VALUE))
+                .addContainerGap(135, Short.MAX_VALUE))
             .addGroup(panPer4Points4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panPer4Points4Layout.createSequentialGroup()
                     .addGap(1, 1, 1)
@@ -1136,8 +1136,7 @@ public class FrmGPS extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCalPer4ActionPerformed
 
     private void btnCalPer5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalPer5ActionPerformed
-    sum = perimeterone + perimeter two; 
-    
+
      
 
     }//GEN-LAST:event_btnCalPer5ActionPerformed
